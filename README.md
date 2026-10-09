@@ -375,5 +375,5 @@ Priority: Proposed High.
    * *Why:* `500,500` contained two invalid variables simultaneously (out-of-bounds + non-integer), violating the *"One invalid value per test"* rule.
 3. **Refactored Decision Table & Justified Dashes:**
    * *Change:* Explicitly populated action `A1` ($X$) for rules R7/R8 where both Amount and Daily Limit were violated, and added textual justifications for all collapsed dashes (`—`).
-   * *Why:* To ensure the table strictly adheres to the precedence rule specified in requi
+   * *Why:* To ensure the table strictly adheres to the precedence rule specified in requirements and satisfies ISO/IEC/IEEE 29119-3 standards.
 ```
